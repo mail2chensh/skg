@@ -10,44 +10,26 @@
 		5B112CAF1B131A3300AB65CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CAE1B131A3300AB65CD /* Foundation.framework */; };
 		5B112CB11B131A3300AB65CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CB01B131A3300AB65CD /* CoreGraphics.framework */; };
 		5B112CB31B131A3300AB65CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CB21B131A3300AB65CD /* UIKit.framework */; };
-		5B112CB91B131A3300AB65CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CB71B131A3300AB65CD /* InfoPlist.strings */; };
-		5B112CBB1B131A3300AB65CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CBA1B131A3300AB65CD /* main.m */; };
-		5B112CBF1B131A3300AB65CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CBE1B131A3300AB65CD /* AppDelegate.m */; };
-		5B112CC11B131A3300AB65CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CC01B131A3300AB65CD /* Images.xcassets */; };
-		5B112CC81B131A3300AB65CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CC71B131A3300AB65CD /* XCTest.framework */; };
-		5B112CC91B131A3300AB65CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CAE1B131A3300AB65CD /* Foundation.framework */; };
-		5B112CCA1B131A3300AB65CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B112CB21B131A3300AB65CD /* UIKit.framework */; };
-		5B112CD21B131A3300AB65CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CD01B131A3300AB65CD /* InfoPlist.strings */; };
-		5B112CD41B131A3300AB65CD /* SKGDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CD31B131A3300AB65CD /* SKGDemoTests.m */; };
+		5B112CE91B131E7500AB65CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CDE1B131E7500AB65CD /* Images.xcassets */; };
+		5B112CEA1B131E7500AB65CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CE21B131E7500AB65CD /* AppDelegate.m */; };
+		5B112CEB1B131E7500AB65CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CE41B131E7500AB65CD /* InfoPlist.strings */; };
+		5B112CEC1B131E7500AB65CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CE61B131E7500AB65CD /* main.m */; };
+		5B112CED1B131E7500AB65CD /* SKGDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CE71B131E7500AB65CD /* SKGDemo-Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5B112CCB1B131A3300AB65CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B112CA31B131A3300AB65CD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B112CAA1B131A3300AB65CD;
-			remoteInfo = SKGDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5B112CAB1B131A3300AB65CD /* SKGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B112CAE1B131A3300AB65CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B112CB01B131A3300AB65CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B112CB21B131A3300AB65CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B112CB61B131A3300AB65CD /* SKGDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKGDemo-Info.plist"; sourceTree = "<group>"; };
-		5B112CB81B131A3300AB65CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B112CBA1B131A3300AB65CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B112CBC1B131A3300AB65CD /* SKGDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKGDemo-Prefix.pch"; sourceTree = "<group>"; };
-		5B112CBD1B131A3300AB65CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5B112CBE1B131A3300AB65CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B112CC01B131A3300AB65CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B112CC61B131A3300AB65CD /* SKGDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKGDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B112CC71B131A3300AB65CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5B112CCF1B131A3300AB65CD /* SKGDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKGDemoTests-Info.plist"; sourceTree = "<group>"; };
-		5B112CD11B131A3300AB65CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B112CD31B131A3300AB65CD /* SKGDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGDemoTests.m; sourceTree = "<group>"; };
+		5B112CDE1B131E7500AB65CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B112CE11B131E7500AB65CD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B112CE21B131E7500AB65CD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B112CE51B131E7500AB65CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B112CE61B131E7500AB65CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B112CE71B131E7500AB65CD /* SKGDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SKGDemo-Info.plist"; sourceTree = "<group>"; };
+		5B112CE81B131E7500AB65CD /* SKGDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKGDemo-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,24 +43,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B112CC31B131A3300AB65CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B112CC81B131A3300AB65CD /* XCTest.framework in Frameworks */,
-				5B112CCA1B131A3300AB65CD /* UIKit.framework in Frameworks */,
-				5B112CC91B131A3300AB65CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5B112CA21B131A3300AB65CD = {
 			isa = PBXGroup;
 			children = (
-				5B112CB41B131A3300AB65CD /* SKGDemo */,
-				5B112CCD1B131A3300AB65CD /* SKGDemoTests */,
+				5B112CDD1B131E7500AB65CD /* Resources */,
+				5B112CDF1B131E7500AB65CD /* Sources */,
 				5B112CAD1B131A3300AB65CD /* Frameworks */,
 				5B112CAC1B131A3300AB65CD /* Products */,
 			);
@@ -88,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				5B112CAB1B131A3300AB65CD /* SKGDemo.app */,
-				5B112CC61B131A3300AB65CD /* SKGDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,44 +75,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B112CB41B131A3300AB65CD /* SKGDemo */ = {
+		5B112CDD1B131E7500AB65CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B112CBD1B131A3300AB65CD /* AppDelegate.h */,
-				5B112CBE1B131A3300AB65CD /* AppDelegate.m */,
-				5B112CC01B131A3300AB65CD /* Images.xcassets */,
-				5B112CB51B131A3300AB65CD /* Supporting Files */,
+				5B112CDE1B131E7500AB65CD /* Images.xcassets */,
 			);
-			path = SKGDemo;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		5B112CB51B131A3300AB65CD /* Supporting Files */ = {
+		5B112CDF1B131E7500AB65CD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5B112CB61B131A3300AB65CD /* SKGDemo-Info.plist */,
-				5B112CB71B131A3300AB65CD /* InfoPlist.strings */,
-				5B112CBA1B131A3300AB65CD /* main.m */,
-				5B112CBC1B131A3300AB65CD /* SKGDemo-Prefix.pch */,
+				5B112CE01B131E7500AB65CD /* Classes */,
+				5B112CE31B131E7500AB65CD /* SupportingFiles */,
 			);
-			name = "Supporting Files";
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		5B112CCD1B131A3300AB65CD /* SKGDemoTests */ = {
+		5B112CE01B131E7500AB65CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5B112CD31B131A3300AB65CD /* SKGDemoTests.m */,
-				5B112CCE1B131A3300AB65CD /* Supporting Files */,
+				5B112CE11B131E7500AB65CD /* AppDelegate.h */,
+				5B112CE21B131E7500AB65CD /* AppDelegate.m */,
 			);
-			path = SKGDemoTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		5B112CCE1B131A3300AB65CD /* Supporting Files */ = {
+		5B112CE31B131E7500AB65CD /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				5B112CCF1B131A3300AB65CD /* SKGDemoTests-Info.plist */,
-				5B112CD01B131A3300AB65CD /* InfoPlist.strings */,
+				5B112CE41B131E7500AB65CD /* InfoPlist.strings */,
+				5B112CE61B131E7500AB65CD /* main.m */,
+				5B112CE71B131E7500AB65CD /* SKGDemo-Info.plist */,
+				5B112CE81B131E7500AB65CD /* SKGDemo-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,24 +132,6 @@
 			productReference = 5B112CAB1B131A3300AB65CD /* SKGDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B112CC51B131A3300AB65CD /* SKGDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B112CDA1B131A3300AB65CD /* Build configuration list for PBXNativeTarget "SKGDemoTests" */;
-			buildPhases = (
-				5B112CC21B131A3300AB65CD /* Sources */,
-				5B112CC31B131A3300AB65CD /* Frameworks */,
-				5B112CC41B131A3300AB65CD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B112CCC1B131A3300AB65CD /* PBXTargetDependency */,
-			);
-			name = SKGDemoTests;
-			productName = SKGDemoTests;
-			productReference = 5B112CC61B131A3300AB65CD /* SKGDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +140,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Chensh;
-				TargetAttributes = {
-					5B112CC51B131A3300AB65CD = {
-						TestTargetID = 5B112CAA1B131A3300AB65CD;
-					};
-				};
 			};
 			buildConfigurationList = 5B112CA61B131A3300AB65CD /* Build configuration list for PBXProject "SKGDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				5B112CAA1B131A3300AB65CD /* SKGDemo */,
-				5B112CC51B131A3300AB65CD /* SKGDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,16 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B112CB91B131A3300AB65CD /* InfoPlist.strings in Resources */,
-				5B112CC11B131A3300AB65CD /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B112CC41B131A3300AB65CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B112CD21B131A3300AB65CD /* InfoPlist.strings in Resources */,
+				5B112CED1B131E7500AB65CD /* SKGDemo-Info.plist in Resources */,
+				5B112CE91B131E7500AB65CD /* Images.xcassets in Resources */,
+				5B112CEB1B131E7500AB65CD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,42 +176,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B112CBF1B131A3300AB65CD /* AppDelegate.m in Sources */,
-				5B112CBB1B131A3300AB65CD /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B112CC21B131A3300AB65CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B112CD41B131A3300AB65CD /* SKGDemoTests.m in Sources */,
+				5B112CEC1B131E7500AB65CD /* main.m in Sources */,
+				5B112CEA1B131E7500AB65CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5B112CCC1B131A3300AB65CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B112CAA1B131A3300AB65CD /* SKGDemo */;
-			targetProxy = 5B112CCB1B131A3300AB65CD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5B112CB71B131A3300AB65CD /* InfoPlist.strings */ = {
+		5B112CE41B131E7500AB65CD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B112CB81B131A3300AB65CD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5B112CD01B131A3300AB65CD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B112CD11B131A3300AB65CD /* en */,
+				5B112CE51B131E7500AB65CD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -360,8 +273,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SKGDemo/SKGDemo-Prefix.pch";
-				INFOPLIST_FILE = "SKGDemo/SKGDemo-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportinFiles/SKGDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,50 +286,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SKGDemo/SKGDemo-Prefix.pch";
-				INFOPLIST_FILE = "SKGDemo/SKGDemo-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportinFiles/SKGDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5B112CDB1B131A3300AB65CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKGDemo.app/SKGDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SKGDemo/SKGDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SKGDemoTests/SKGDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5B112CDC1B131A3300AB65CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKGDemo.app/SKGDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SKGDemo/SKGDemo-Prefix.pch";
-				INFOPLIST_FILE = "SKGDemoTests/SKGDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -439,14 +312,7 @@
 				5B112CD91B131A3300AB65CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5B112CDA1B131A3300AB65CD /* Build configuration list for PBXNativeTarget "SKGDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B112CDB1B131A3300AB65CD /* Debug */,
-				5B112CDC1B131A3300AB65CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
