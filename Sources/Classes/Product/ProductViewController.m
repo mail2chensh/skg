@@ -9,7 +9,14 @@
 #import "ProductViewController.h"
 #import "ProductRootView.h"
 
-@interface ProductViewController ()
+#import "SGFocusImageFrame.h"
+#import "SGFocusImageItem.h"
+#import "ProductTableView.h"
+
+#import "ProductModel.h"
+
+
+@interface ProductViewController () <SGFocusImageFrameDelegate>
 {
     ProductRootView *_rootView;
 }
@@ -29,18 +36,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
     //
     _rootView = [[ProductRootView alloc] initWithFrame:self.view.frame];
+    [_rootView createSubviewsWithDelegate:self];
+    
     self.view = _rootView;
     
-    
+    //
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    for (int i = 0; i < 13; i++) {
+        ProductModel *model = [[ProductModel alloc] init];
+        [arr addObject:model];
+    }
+    _rootView.tableView.dataArr = arr;
+    [_rootView.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark -
+
+- (void)foucusImageFrame:(SGFocusImageFrame *)imageFrame didSelectItem:(SGFocusImageItem *)item
+{
+    
+}
+
+- (void)foucusImageFrame:(SGFocusImageFrame *)imageFrame currentItem:(int)index;
+{
+    NSLog(@"%s \n scrollToIndex===>%d",__FUNCTION__,index);
 }
 
 

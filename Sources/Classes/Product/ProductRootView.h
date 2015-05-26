@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SGFocusImageFrame.h"
+@class ProductTableView;
+
 
 @interface ProductRootView : UIView
+
+@property (nonatomic, strong) SGFocusImageFrame *imageFrame;
+
+@property (nonatomic, strong) ProductTableView *tableView;
+
+- (void)createSubviewsWithDelegate:(id<SGFocusImageFrameDelegate>)delegate;
 
 @end
