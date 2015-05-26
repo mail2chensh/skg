@@ -14,7 +14,15 @@
 		5B112CEA1B131E7500AB65CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CE21B131E7500AB65CD /* AppDelegate.m */; };
 		5B112CEB1B131E7500AB65CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CE41B131E7500AB65CD /* InfoPlist.strings */; };
 		5B112CEC1B131E7500AB65CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B112CE61B131E7500AB65CD /* main.m */; };
-		5B112CED1B131E7500AB65CD /* SKGDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B112CE71B131E7500AB65CD /* SKGDemo-Info.plist */; };
+		5BBBA09C1B141CEF0083B214 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA09B1B141CEF0083B214 /* MainController.m */; };
+		5BBBA0A01B1424530083B214 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA09F1B1424530083B214 /* ProductViewController.m */; };
+		5BBBA0A31B1424660083B214 /* ProductRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0A21B1424660083B214 /* ProductRootView.m */; };
+		5BBBA0A91B1427F50083B214 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0A81B1427F50083B214 /* CategoryViewController.m */; };
+		5BBBA0AC1B1428040083B214 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0AB1B1428040083B214 /* CartViewController.m */; };
+		5BBBA0AF1B1428110083B214 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0AE1B1428110083B214 /* UserCenterViewController.m */; };
+		5BBBA0B31B1430030083B214 /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBBA0B11B1430030083B214 /* icon_home.png */; };
+		5BBBA0BB1B1444F40083B214 /* SGFocusImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0B81B1444F40083B214 /* SGFocusImageFrame.m */; };
+		5BBBA0BC1B1444F40083B214 /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA0BA1B1444F40083B214 /* SGFocusImageItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,23 @@
 		5B112CE61B131E7500AB65CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B112CE71B131E7500AB65CD /* SKGDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SKGDemo-Info.plist"; sourceTree = "<group>"; };
 		5B112CE81B131E7500AB65CD /* SKGDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKGDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5BBBA09A1B141CEF0083B214 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		5BBBA09B1B141CEF0083B214 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		5BBBA09E1B1424530083B214 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		5BBBA09F1B1424530083B214 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		5BBBA0A11B1424660083B214 /* ProductRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductRootView.h; sourceTree = "<group>"; };
+		5BBBA0A21B1424660083B214 /* ProductRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductRootView.m; sourceTree = "<group>"; };
+		5BBBA0A71B1427F50083B214 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		5BBBA0A81B1427F50083B214 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		5BBBA0AA1B1428040083B214 /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		5BBBA0AB1B1428040083B214 /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		5BBBA0AD1B1428110083B214 /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		5BBBA0AE1B1428110083B214 /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
+		5BBBA0B11B1430030083B214 /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
+		5BBBA0B71B1444F40083B214 /* SGFocusImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageFrame.h; sourceTree = "<group>"; };
+		5BBBA0B81B1444F40083B214 /* SGFocusImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageFrame.m; sourceTree = "<group>"; };
+		5BBBA0B91B1444F40083B214 /* SGFocusImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageItem.h; sourceTree = "<group>"; };
+		5BBBA0BA1B1444F40083B214 /* SGFocusImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +103,7 @@
 		5B112CDD1B131E7500AB65CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5BBBA0B01B1430030083B214 /* MainController */,
 				5B112CDE1B131E7500AB65CD /* Images.xcassets */,
 			);
 			path = Resources;
@@ -95,6 +121,12 @@
 		5B112CE01B131E7500AB65CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5BBBA0B51B1444F40083B214 /* Common */,
+				5BBBA0A41B1427E20083B214 /* Category */,
+				5BBBA0A51B1427E20083B214 /* ShoppingCart */,
+				5BBBA0A61B1427E20083B214 /* UserCenter */,
+				5BBBA09D1B1424400083B214 /* Product */,
+				5BBBA0991B141B4E0083B214 /* MainController */,
 				5B112CE11B131E7500AB65CD /* AppDelegate.h */,
 				5B112CE21B131E7500AB65CD /* AppDelegate.m */,
 			);
@@ -112,6 +144,80 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		5BBBA0991B141B4E0083B214 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA09A1B141CEF0083B214 /* MainController.h */,
+				5BBBA09B1B141CEF0083B214 /* MainController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		5BBBA09D1B1424400083B214 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA09E1B1424530083B214 /* ProductViewController.h */,
+				5BBBA09F1B1424530083B214 /* ProductViewController.m */,
+				5BBBA0A11B1424660083B214 /* ProductRootView.h */,
+				5BBBA0A21B1424660083B214 /* ProductRootView.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5BBBA0A41B1427E20083B214 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0A71B1427F50083B214 /* CategoryViewController.h */,
+				5BBBA0A81B1427F50083B214 /* CategoryViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5BBBA0A51B1427E20083B214 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0AA1B1428040083B214 /* CartViewController.h */,
+				5BBBA0AB1B1428040083B214 /* CartViewController.m */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		5BBBA0A61B1427E20083B214 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0AD1B1428110083B214 /* UserCenterViewController.h */,
+				5BBBA0AE1B1428110083B214 /* UserCenterViewController.m */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		5BBBA0B01B1430030083B214 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0B11B1430030083B214 /* icon_home.png */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		5BBBA0B51B1444F40083B214 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0B61B1444F40083B214 /* ScrollViewLoop */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5BBBA0B61B1444F40083B214 /* ScrollViewLoop */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBA0B71B1444F40083B214 /* SGFocusImageFrame.h */,
+				5BBBA0B81B1444F40083B214 /* SGFocusImageFrame.m */,
+				5BBBA0B91B1444F40083B214 /* SGFocusImageItem.h */,
+				5BBBA0BA1B1444F40083B214 /* SGFocusImageItem.m */,
+			);
+			path = ScrollViewLoop;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,8 +225,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B112CD71B131A3300AB65CD /* Build configuration list for PBXNativeTarget "SKGDemo" */;
 			buildPhases = (
-				5B112CA71B131A3300AB65CD /* Sources */,
 				5B112CA81B131A3300AB65CD /* Frameworks */,
+				5B112CA71B131A3300AB65CD /* Sources */,
 				5B112CA91B131A3300AB65CD /* Resources */,
 			);
 			buildRules = (
@@ -163,7 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B112CED1B131E7500AB65CD /* SKGDemo-Info.plist in Resources */,
+				5BBBA0B31B1430030083B214 /* icon_home.png in Resources */,
 				5B112CE91B131E7500AB65CD /* Images.xcassets in Resources */,
 				5B112CEB1B131E7500AB65CD /* InfoPlist.strings in Resources */,
 			);
@@ -177,6 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B112CEC1B131E7500AB65CD /* main.m in Sources */,
+				5BBBA0BC1B1444F40083B214 /* SGFocusImageItem.m in Sources */,
+				5BBBA09C1B141CEF0083B214 /* MainController.m in Sources */,
+				5BBBA0A31B1424660083B214 /* ProductRootView.m in Sources */,
+				5BBBA0BB1B1444F40083B214 /* SGFocusImageFrame.m in Sources */,
+				5BBBA0A01B1424530083B214 /* ProductViewController.m in Sources */,
+				5BBBA0AF1B1428110083B214 /* UserCenterViewController.m in Sources */,
+				5BBBA0A91B1427F50083B214 /* CategoryViewController.m in Sources */,
+				5BBBA0AC1B1428040083B214 /* CartViewController.m in Sources */,
 				5B112CEA1B131E7500AB65CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportinFiles/SKGDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -286,7 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportinFiles/SKGDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SupportingFiles/SKGDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
