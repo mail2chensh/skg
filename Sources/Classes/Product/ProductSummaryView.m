@@ -36,7 +36,7 @@ const int PSV_TopMargin = 5;
 {
     //
     _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.width)];
-    
+    _imageView.image = [UIImage imageNamed:@"product.jpg"];
     [self addSubview:_imageView];
     //
     _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, _imageView.bottom + PSV_TopMargin, self.width, 30)];
@@ -52,6 +52,22 @@ const int PSV_TopMargin = 5;
     [_favLabel sizeToFit];
     _favLabel.frame = CGRectMake(self.width - _favLabel.width, _priceLabel.top, _favLabel.width, 30);
     [self addSubview:_favLabel];
+    
+}
+
+- (void)setModel:(ProductModel *)model
+{
+    if (model == nil) {
+        _model = nil;
+        self.hidden = YES;
+    } else if (_model != model) {
+        _model = model;
+        [self setNeedsLayout];
+    }
+}
+
+- (void)layoutSubviews
+{
     
 }
 

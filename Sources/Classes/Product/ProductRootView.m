@@ -47,6 +47,7 @@ const int HeightOfImageFrame = 150;
     //
     _tableView = [[ProductTableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight - HeightOfXTabBarController - HeightOfStatusBar - HeightOfNavicontroller) style:UITableViewStylePlain];
     _tableView.showsVerticalScrollIndicator = NO;
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 //    _tableView.tableHeaderView = _imageFrame;
     [self addSubview:_tableView];
 }

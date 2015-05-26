@@ -36,7 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     //
     _rootView = [[ProductRootView alloc] initWithFrame:self.view.frame];
     [_rootView createSubviewsWithDelegate:self];

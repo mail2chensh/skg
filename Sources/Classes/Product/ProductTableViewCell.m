@@ -39,6 +39,12 @@
     [self addSubview:_rightView];
 }
 
+- (void)layoutSubviews
+{
+    _leftView.model = _leftModel;
+    _rightView.model = _rightModel;
+}
+
 - (void)awakeFromNib
 {
     // Initialization code

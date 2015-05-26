@@ -12,6 +12,8 @@
 #import "CartViewController.h"
 #import "UserCenterViewController.h"
 
+#import "LoginViewController.h"
+
 static MainController* _instance = nil;
 
 @implementation MainController
@@ -48,7 +50,8 @@ static MainController* _instance = nil;
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:cart];
     
     //
-    UserCenterViewController *userCenter = [[UserCenterViewController alloc] init];
+    LoginViewController *userCenter = [[LoginViewController alloc] init];
+//    UserCenterViewController *userCenter = [[UserCenterViewController alloc] init];
     userCenter.tabBarItem.title = @"账户中心";
     userCenter.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
     UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:userCenter];
