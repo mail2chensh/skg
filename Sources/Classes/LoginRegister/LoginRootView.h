@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class InfoEditGroupView;
+
 
 @interface LoginRootView : UIView
 
@@ -14,6 +16,13 @@
 
 @property (nonatomic, strong) UISegmentedControl *segControl;
 
+@property (nonatomic, strong) InfoEditGroupView *loginView;
 
+@property (nonatomic, strong) InfoEditGroupView *registerView;
+
+@property (nonatomic, strong) UIButton *button;
+
+
+- (void)showViewWithSegIndex:(NSInteger)index;
 
 @end

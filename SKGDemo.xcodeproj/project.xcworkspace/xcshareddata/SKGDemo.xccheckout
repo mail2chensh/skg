@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>792D15A4-F9AC-4D89-A672-277C17802085</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SKGDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F761D7E9-05DD-4734-A51E-20F9D759507A</key>
+		<string>https://github.com/mail2chensh/skg.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SKGDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F761D7E9-05DD-4734-A51E-20F9D759507A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mail2chensh/skg.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F761D7E9-05DD-4734-A51E-20F9D759507A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F761D7E9-05DD-4734-A51E-20F9D759507A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SKGDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

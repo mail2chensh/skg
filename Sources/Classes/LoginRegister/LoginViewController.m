@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "LoginRootView.h"
-
+#import "InfoEditGroupView.h"
 
 @interface LoginViewController ()
 {
@@ -34,17 +34,32 @@
     //
     _rootView = [[LoginRootView alloc] initWithFrame:self.view.frame];
     self.view = _rootView;
-    
     //
+    [_rootView.scrollView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewDidTouch:)]];
     [_rootView.segControl addTarget:self action:@selector(segControlDidChanged:) forControlEvents:UIControlEventValueChanged];
+    [_rootView.button addTarget:self action:@selector(buttonDidTouch:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark -
 
+- (void)scrollViewDidTouch:(id)sender
+{
+    [_rootView.loginView allTextFieldResignFirstResponder];
+    [_rootView.registerView allTextFieldResignFirstResponder];
+}
+
 - (void)segControlDidChanged:(UISegmentedControl*)sender
 {
-    NSLog(@"select: @%d", sender.selectedSegmentIndex);
-    
+    [_rootView showViewWithSegIndex:sender.selectedSegmentIndex];
+}
+
+- (void)buttonDidTouch:(id)sender
+{
+    if (_rootView.segControl.selectedSegmentIndex == 0) {
+        
+    } else {
+        
+    }
 }
 
 @end

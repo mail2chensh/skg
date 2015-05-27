@@ -18,6 +18,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         //
         UIView *sepH = [CreateManager createSeparatorView:self.width];
         sepH.frame = CGRectMake(0, 0, sepH.width, sepH.height);
@@ -29,19 +30,29 @@
             [self addSubview:item];
 
             if (i == array.count - 1) break;
-            sepH = [CreateManager createSeparatorView:self.width - 10];
-            sepH.frame = CGRectMake(5, item.bottom, sepH.width, sepH.height);
-            [sepH addSubview:sepH];
+            UIView *sepM = [CreateManager createSeparatorView:self.width - 10];
+            sepM.frame = CGRectMake(5, item.bottom, sepM.width, sepM.height);
+            [self addSubview:sepM];
         }
         
         sepH = [CreateManager createSeparatorView:self.width];
         sepH.frame = CGRectMake(0, array.count * (IEGV_HeightOfItem + sepH.height), sepH.width, sepH.height);
         [self addSubview:sepH];
+        
+        self.height = array.count * (IEGV_HeightOfItem + sepH.height) + sepH.height;
     }
     return self;
+    
 }
 
-
+- (void)allTextFieldResignFirstResponder
+{
+    for (UIView *view in self.subviews) {
+        if ([view isKindOfClass:[InfoEditItem class]]) {
+            [((InfoEditItem *)view).textField resignFirstResponder];
+        }
+    }
+}
 
 
 @end

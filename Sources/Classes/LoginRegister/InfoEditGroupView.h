@@ -10,4 +10,8 @@
 
 @interface InfoEditGroupView : UIView
 
+- (id)initWithFrame:(CGRect)frame array:(NSArray*)array;
+
+- (void)allTextFieldResignFirstResponder;
+
 @end
